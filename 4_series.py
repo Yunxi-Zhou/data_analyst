@@ -40,4 +40,3 @@ if __name__ == '__main__':
     print(p1.dic())
     print(p1.dic2())
     print(p1.multi())
-    
