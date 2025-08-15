@@ -30,13 +30,3 @@ class PdSeries:
     
     def multi(self):
         return self.ini_series(self.c)
-    
-if __name__ == '__main__':
-    p1 = PdSeries()
-    print(p1.series())
-    print(p1.series()[1])
-    print(p1.labels())
-    print(p1.labels()["y"])
-    print(p1.dic())
-    print(p1.dic2())
-    print(p1.multi())

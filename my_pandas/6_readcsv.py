@@ -23,10 +23,3 @@ class ReadCSV:
     def max_rows(self):
         self.set_row(9999)
         return self.ini_read(self.data)
-
-
-if __name__ == '__main__':
-    res = ReadCSV()
-    print(res.to_str())
-    print(res.system_max())
-    print(res.max_rows())

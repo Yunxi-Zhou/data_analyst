@@ -18,9 +18,3 @@ class Analyst:
     
     def return_info(self):
         return self.ini_csv(self.data).info()
-
-if __name__ == '__main__':
-    res = Analyst()
-    print(res.return_head(5))
-    print(res.return_tail())
-    print(res.return_info())

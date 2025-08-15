@@ -45,14 +45,3 @@ class CleanData:
         x = df[data].mode()[nums]
         df.fillna({data: x}, inplace=True)
         return df
-    
-if __name__ == '__main__':
-    res = CleanData()
-    print(res.read_data())
-    print(res.remove_row())
-    print(res.remove_inplace())
-    print(res.replace_empty(130))
-    print(res.replace_empty({"Calories":130}))
-    print(res.replace_mean("Calories"))
-    print(res.replace_median("Calories"))
-    print(res.replace_mode("Calories",0))

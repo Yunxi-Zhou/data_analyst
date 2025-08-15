@@ -25,11 +25,3 @@ class DataFrame:
     def read_file(self):
         print(self.sep)
         return pd.read_csv('data/customers-100.csv')
-
-if __name__ == '__main__':
-    res = DataFrame()
-    print(res.load_data())
-    print(res.loc_row(res.a,0))  # loc[] --> locate row
-    print(res.loc_row(res.a,[0,1]))
-    print(res.name_index())
-    print(res.read_file())

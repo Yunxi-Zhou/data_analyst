@@ -53,9 +53,3 @@ class ReadJson:
     def json_data(self,data):
         print(self.sep)
         return pd.DataFrame(data)
-
-if __name__ == '__main__':
-    res = ReadJson()
-    print(res.to_str())
-    print(res.entire_str())
-    print(res.json_data(res.data))

@@ -18,8 +18,3 @@ class WrongFormat:
         df = self.ini_read(self.data)
         df.dropna(subset=[data], inplace=True)
         return df
-
-if __name__ == '__main__':
-    res = WrongFormat()
-    print(res.to_date('Date'))
-    print(res.remove_null('Date'))
