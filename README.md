@@ -25,6 +25,8 @@ Pandas
 
 ## pandas main
 ### 4 series
+```python
+from my_pandas import PdSeries()
 p1 = PdSeries()
 print(p1.series())
 print(p1.series()[1])
