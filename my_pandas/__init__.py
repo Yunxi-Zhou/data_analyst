@@ -6,3 +6,6 @@ from .analyst import Analyst
 from .cleandata import CleanData
 from .wrongformat import WrongFormat
 from .fixdata import FixData
+from .duplicate import Duplicates
+from .correlation import Correlations
+from .plotting import Plotting
