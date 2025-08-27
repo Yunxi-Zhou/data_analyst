@@ -1,6 +1,6 @@
 import numpy as np
 
-class Ndarrays:
+class NdArrays:
     def __init__(self):
         self.sep = '----------------'
 
