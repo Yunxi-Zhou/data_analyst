@@ -2,9 +2,9 @@ import numpy as np
 from my_numpy.basenumpy import BaseNumpy
 
 class CopyView(BaseNumpy):
-    def __init__(self):
+    def __init__(self,arr=None):
         super().__init__()
-        self.arr = [1,2,3,4,5]
+        self.arr = arr
     
     def return_copy(self):
         arr = self.ini_np(self.arr,return_print=False,return_arr=True)
